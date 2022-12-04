@@ -1,0 +1,36 @@
+.video{
+    width: 500px;
+    height: 300px;
+    margin-left: 450px;
+}
+
+button:hover{
+    /*cursor pointer: se transforma en una manita*/
+    cursor: pointer;
+}
+
+h1{
+    color: aquamarine;
+}
+
+.modo_sexo{
+    height: 2000px;
+    /*se pued eponer como nosotros quedamos*/
+    position: absolute;
+
+    display: none;
+
+        width: 100%;
+        background-color: red;
+
+}
+
+#boton_si{
+    background-color: coral;
+    border-color: blue;
+    color: white;
+    font-size: xx-large;
+    padding: 32px;
+    text-align: center;
+    border-radius: 10px;
+}
