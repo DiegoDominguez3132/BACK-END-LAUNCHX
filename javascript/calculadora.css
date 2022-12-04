@@ -1,0 +1,129 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #fff;
+  
+}
+
+
+body{
+    margin: 0;
+    background-color: coral;
+}
+
+
+.contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 650px;
+        
+
+}
+
+
+.calculadora{
+    display: grid;
+    grid-template-columns: repeat(5,75px);
+    grid-template-rows:160px repeat(5,75px) ;
+    background-color: limegreen;
+    padding: 15px;
+    border-radius:32px;
+    box-shadow: 15px 10px 0px 5px #00000033;
+
+}
+
+button{
+        cursor: pointer;
+        margin: 6px;
+        padding: 0;
+        border-radius: 10px;
+        font-size: 20px;
+    border: none;
+    background-color: lightgreen;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px -3px black, -5px -5px 15px 3px #f5b67f;
+
+}
+
+button:hover{
+    background-color: limegreen;
+}
+button:focus{
+    outline: none;
+}
+.hyms{
+    height: 30px;
+    width: 60px;
+}
+.porcentaje{
+    height: 30px;
+    width: 60px;
+}
+.tax1{
+    height: 30px;
+    width: 60px;
+}
+.tax2{
+    height: 30px;
+    width: 60px;
+}
+.masmenos{
+    height: 30px;
+    width: 60px;
+}
+.mrc{
+    height: 50px;
+    width: 60px;
+}
+.Mmas{
+    height: 50px;
+    width: 60px;
+}
+.Mmenos{
+    height: 50px;
+    width: 60px;
+}
+.operador{
+    height: 50px;
+    width: 60px;
+}
+.flecha{
+    height: 50px;
+    width: 60px;
+}
+.numero{
+    height: 50px;
+    width: 60px;
+}
+.borrar1{
+    height: 50px;
+    width: 60px;
+}
+.borrar2{
+    height: 50px;
+    width: 60px;
+}
+.display{
+    /*Ancho total*/
+    grid-column:1/-1 ;
+    padding: 16px;
+    display: flex;
+    margin: 10px 10px 20px;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: gray;
+    border-radius: 30px;
+    text-align: right;
+    justify-content: space-between;
+    word-break: break-all;
+    box-shadow: 0px 0px 0px 10px #00000033;
+
+}
+
+#valorActual{
+    font-size: 20px;
+}
+
+#valorAnterior{
+    font-size: 30px;
+}
